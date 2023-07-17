@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "500976015479",
+    "project_id": "reecetest-b0525",
+    "storage_bucket": "reecetest-b0525.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:500976015479:android:3c34e9b27a028e668b4e72",
+        "android_client_info": {
+          "package_name": "com.vsaldivarm.readerapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "500976015479-3rvc85agjovnp3rk1feeg4hq8mr33k4s.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBDAOjbamValeJsbNAMR1V10bk9l_leeAU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "500976015479-3rvc85agjovnp3rk1feeg4hq8mr33k4s.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "500976015479-keg5bqvnnieta9nm4f3d6eb0mahpgvb4.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "org.reactjs.native.example.pokedex"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
