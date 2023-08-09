@@ -22,6 +22,7 @@ import androidx.compose.ui.draw.scale
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.unit.dp
 import androidx.navigation.NavController
+import com.vsaldivarm.readerapp.components.ReaderLogo
 import com.vsaldivarm.readerapp.navigation.ReaderScreens
 import kotlinx.coroutines.delay
 
@@ -63,10 +64,8 @@ fun ReaderSplashScreen(navController: NavController) {
          horizontalAlignment = Alignment.CenterHorizontally,
          verticalArrangement = Arrangement.Center
       ) {
-         Text(
-            text = "Reader", style = MaterialTheme.typography.displayLarge,
-            color = Color.Red.copy(alpha = 0.5f)
-         )
+
+         ReaderLogo()
          Spacer(modifier = Modifier.height(15.dp))
          Text(
             text = "\"Change. Yourself \"",
@@ -76,5 +75,4 @@ fun ReaderSplashScreen(navController: NavController) {
       }
 
    }
-
 }
