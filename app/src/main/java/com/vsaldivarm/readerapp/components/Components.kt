@@ -21,7 +21,9 @@ import androidx.compose.ui.unit.sp
 @Composable
 fun ReaderLogo(modifier: Modifier = Modifier) {
     Text(
-        text = "Reader", style = MaterialTheme.typography.displayLarge,
+        text = "Reader",
+        modifier = Modifier.padding(16.dp),
+        style = MaterialTheme.typography.displayLarge,
         color = Color.Red.copy(alpha = 0.5f)
     )
 }
@@ -33,8 +35,7 @@ fun EmailInput(
     labelId: String = "Email",
     enable: Boolean = true,
     imeAction: ImeAction = ImeAction.Next,
-    onAction: KeyboardActions = KeyboardActions.Default
-) {
+    onAction: KeyboardActions = KeyboardActions.Default) {
     InputField(
         modifier = modifier,
         valueState = emailState,
